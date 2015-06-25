@@ -1,14 +1,20 @@
 {
   "manifest_version": 2,
 
-  "name": "Center Logo in Princeton Gmail",
-  "description": "This extension vertically centers the logo on Princeton Gmail.",
-  "version": "1.0",
+  "name": "Center Logo in Princeton Google Apps",
+  "description": "This extension vertically centers the logo on Princeton Google Apps.",
+  "version": "1.0.2",
 
   "content_scripts": [
     {
-      "matches": ["https://mail.google.com/*"],
-      "js": ["script.js"]
+      "matches": ["https://*.google.com/*"],
+      "css": ["style.css"]
     }
-  ]
+  ],
+
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
 }
