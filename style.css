@@ -1,3 +1,7 @@
 span[style*="/princeton.edu/images/logo.gif"] {
   background-position-y: -8px;
 }
+
+img[src*="/princeton.edu/images/logo.gif"] {
+  margin-top: -17px;
+}
